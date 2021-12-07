@@ -1,0 +1,17 @@
+// in src/searchSaga.js
+import { call, put, takeEvery } from 'redux-saga/effects';
+import apiCall from './apiCall';
+
+function* payCash(action) {
+  try {
+    const item = yield call(apiCall, 'POST', '/sales/pay');
+    yield put({ type: 'PAYMENT_SUCCEEDED', item: item });
+  } catch (e) {
+    console.log(e);
+    yield put({ type: 'PAYMENT_FAILED', message: e.message });
+  }
+}
+
+export default function* paySaga() {
+  yield takeEvery('CASH_RECEIVED', payCash);
+}

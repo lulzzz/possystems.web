@@ -1,0 +1,70 @@
+﻿.table td {
+    padding: .50rem;
+    font-weight: bold;
+}
+/* Set black background color, white text and some padding */
+footer {
+    color: #000;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #e0e0e0
+}
+
+.navbar {
+    margin-bottom: 10px;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.panel-heading {
+    background-color: #b3e5fc !important;
+    border-color: #337ab7 !important;
+    color: #000 !important;
+    padding: 5px 10px !important;
+}
+
+.table {
+    margin-bottom: 2px;
+}
+
+.footer-basic {
+    text-align: left;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+i.fa-envelope {
+    font-size: 20px;
+    line-height: 10px;
+    padding-right: 10px;
+}
+
+i.fa-phone {
+    font-size: 20px;
+    line-height: 10px;
+    padding-right: 10px;
+}
+
+i.fa-map-marker {
+    font-size: 20px;
+    line-height: 10px;
+    padding-right: 10px;
+}
+
+.footer-icons a {
+    margin-top: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
