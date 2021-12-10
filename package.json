@@ -3,7 +3,7 @@
   "private": true,
   "version": "3.0.0",
   "scripts": {
-    "dev": "webpack serve --watch --config webpack.dev.js",
+    "dev": "webpack serve --host 0.0.0.0 --watch --config webpack.dev.js",
     "build": "webpack --config webpack.dev.js",
     "prod": "webpack --config webpack.prod.js",
     "test": "jest",
